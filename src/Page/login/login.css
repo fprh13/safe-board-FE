@@ -1,0 +1,87 @@
+/* Login.js */
+
+/* Container styling */
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Alert message styling */
+.alert {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #f8d7da; /* Red background color */
+  color: #721c24; /* Dark red text color */
+  border-color: #f5c6cb; /* Red border color */
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+  font-weight: bold;
+}
+
+/* Input styling */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Submit button styling */
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Primary color */
+  border: none;
+  border-radius: 4px;
+  color: #fff; /* White text color */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade of primary color on hover */
+}
+
+/* Signup link styling */
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p a {
+  color: #007bff; /* Primary color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Kakao login link styling */
+a.kakao-login {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #000; /* Black text color */
+  text-decoration: none;
+  font-weight: bold;
+}
