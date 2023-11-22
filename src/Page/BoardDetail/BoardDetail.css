@@ -1,0 +1,87 @@
+BoardDetail.css
+
+/* 게시물 상세 페이지 스타일 */
+.board-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.board-detail-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center; /* Center the heading */
+}
+
+/* Style for individual detail items */
+.board-detail-item {
+  margin-bottom: 10px;
+}
+
+.board-detail-item strong {
+  font-weight: bold;
+}
+
+/* 버튼 스타일 */
+.back-button,
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth hover transition */
+  margin-right: 10px; /* Add space between buttons */
+}
+
+.back-button {
+  background-color: #007bff;
+}
+
+.download-button {
+  background-color: #4caf50;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.download-button:hover {
+  background-color: #45a049;
+}
+
+/* 파일 이름 스타일 */
+.file-name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+  display: block; /* Make the file name appear on a new line */
+  text-align: center; /* Center the file name */
+}
+
+/* Center the buttons */
+.button-container {
+  text-align: center;
+}
+
+/* Style for the main page link */
+.main-page-link {
+  display: block;
+  margin-top: 20px; /* Add space between the buttons and the main page link */
+  text-align: center;
+  font-size: 18px; /* Increase font size for better visibility */
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.main-page-link:hover {
+  color: #0056b3;
+}
